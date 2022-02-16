@@ -66,7 +66,7 @@ class TestVarasto(unittest.TestCase):
         self.assertAlmostEqual(self.varasto.paljonko_mahtuu(), 0)
 
     def test_negatiivinen_konstruktorin_tilavuus(self):
-        self.assertAlmostEqual(self.varasto2.paljonko_mahtuu(), 10)
+        self.assertAlmostEqual(self.varasto2.paljonko_mahtuu(), 0)
 
     def test_negatiivinen_alkusaldo(self):
         self.assertAlmostEqual(self.varasto3.paljonko_mahtuu(), 10)
