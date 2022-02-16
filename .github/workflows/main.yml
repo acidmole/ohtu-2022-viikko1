@@ -27,4 +27,4 @@ jobs:
       - name: Coverage report to Codecov
         uses: codecov/codecov-action@v2
       - name: run Pylint
-        uses: run poetry run pylint src
+        run: run poetry run pylint src
